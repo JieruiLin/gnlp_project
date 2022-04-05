@@ -9,9 +9,9 @@ import numpy as np
 from torch.nn.utils.rnn import pad_sequence
 import pickle
 
-DATA_DIR = '../../data/'
-FRAMES_DIR = '../../data/processed-frames/'
-ENVS_DIR = '../../data/envs/'
+DATA_DIR = '/shared/jlin/gnlp_data/'
+FRAMES_DIR = '/shared/jlin/gnlp_data/processed-frames/'
+ENVS_DIR = '/shared/jlin/gnlp_data/envs/'
 
 TRAIN_VIDEOS = list(range(80))
 VALID_VIDEOS = list(range(80, 100))

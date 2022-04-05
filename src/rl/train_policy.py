@@ -94,7 +94,7 @@ def main(args):
     
     # creating environment
     positions, obj_ids = load_env(
-        '../../data/envs/obj{}-env{}.txt'.format(args.obj_id, args.env_id))
+        '/shared/jlin/gnlp_data/envs/obj{}-env{}.txt'.format(args.obj_id, args.env_id))
     state_dim = 6
     action_dim = 4
 
